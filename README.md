@@ -15,4 +15,10 @@
 
 4. ``exit`` を実行して、Ubuntu を一度終了させる。
 5. 再度、スタートメニューから ubuntu を起動
-6. 「開発環境セットアップ手順 WSL ubuntu編」の p.32 以降の手順を実行。
+6. 以下のコマンドを実行
+
+```
+cd athrill-sample/ev3rt/ev3rt-beta7-release/asp3/sdk/workspace/                                                           
+```
+
+7. 「開発環境セットアップ手順 WSL ubuntu編」の p.32 以降の手順を実行。
