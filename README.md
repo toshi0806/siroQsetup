@@ -3,7 +3,7 @@
 九州産業大学 理工学部 情報科学科 プロジェクトベース設計演習における、
 「開発環境セットアップ手順 WSL ubuntu編」の作業の一部自動化を目標としています。
 
-1. 授業用コンテンツとして提供されている「開発環境セットアップ手順 WSL ubuntu編」の p.18 の手順をそのまま実行。
+1. 授業用コンテンツとして提供されている「開発環境セットアップ手順 WSL ubuntu編」の p.1〜18 の手順をそのまま実行。
 2. 以下のコマンドを実行。
 
 ```wget https://raw.githubusercontent.com/toshi0806/siroQsetup/master/siroQsetup.sh```
