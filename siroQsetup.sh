@@ -25,12 +25,13 @@ tar xzf athrill-gcc-package.tar.gz
 export PATH="/usr/local/athrill-gcc/bin/:${HOME}/athrill/bin/linux:${PATH}"
 export LD_LIBRARY_PATH="/usr/local/athrill-gcc:/usr/local/athrill-gcc/lib:${LD_LIBRARY_PATH}"
 
-# install EV3RT development environment
-git clone https://github.com/tmori/athrill-sample.git
-(cd athrill-sample/ev3rt/ev3rt-beta7-release/asp3/sdk/workspace; make img=athrillsample clean; make img=athrillsample)
-
 # setup bash initialize file
 cat <<EOF >>${HOME}/.bashrc
 export PATH=\"/usr/local/athrill-gcc/bin/:\${HOME}/athrill/bin/linux:\${PATH}\"
 export LD_LIBRARY_PATH=\"/usr/local/athrill-gcc:/usr/local/athrill-gcc/lib:\${LD_LIBRARY_PATH}\"
 EOF
+
+# install EV3RT development environment
+git clone https://github.com/tmori/athrill-sample.git
+(cd athrill-sample/ev3rt/ev3rt-beta7-release/asp3/sdk/workspace; make img=athrillsample clean; make img=athrillsample)
+
