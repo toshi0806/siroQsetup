@@ -31,7 +31,7 @@ LD_LIBRARY_PATH=/usr/local/athrill-gcc:/usr/local/athrill-gcc/lib:"${LD_LIBRARY_
 export LD_LIBRARY_PATH
 
 # setup bash initialize file
-if [ ! grep athrill ${HOME}/.bashrc ]; then
+if ! grep athrill ${HOME}/.bashrc ; then
 cat <<EOF >>${HOME}/.bashrc
 export PATH=/usr/local/athrill-gcc/bin/:\${HOME}/athrill/bin/linux:\${PATH}
 export LD_LIBRARY_PATH=/usr/local/athrill-gcc:/usr/local/athrill-gcc/lib:${LD_LIBRARY_PATH}
